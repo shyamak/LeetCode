@@ -22,7 +22,7 @@ public class Solution {
         for (String a : list) {
             if (max < a.length()) {
                 max = a.length();
-                ans = a;
+                ans = a; //can be used to print out the actual value, though in this case, it will be the last value with maximum length
             }
         }
         return max;
